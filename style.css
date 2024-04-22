@@ -3,11 +3,11 @@
 
 :root {
 	--fundo: #000000;		
-	--verde: #f3ba00;
+	--roxoclaro: #d85ef6;
 	--branco: #FFFFFF;
 	--botao-on: #3A375E;
 	--botao-off: rgba(58, 55, 94, 0.5);
-	--texto-fundo: rgba(58, 55, 94, 0.3);	/*definindo variáveis*/
+	--texto-fundo: rgba(116, 106, 232, 0.3);	/*definindo variáveis*/
 	}
 
 body {
@@ -34,7 +34,7 @@ body {
 }
 
 .titulo-principal span {
-	color: var(--verde);  /* trocando cor do _ */
+	color: var(--roxoclaro);  /* trocando cor do _ */
 }
 
 .botao {
@@ -56,7 +56,7 @@ body {
 
 .botao.ativo {
 	background-color: var(--botao-on);	/* definindo cores do botão ativo*/
-	border-bottom: 4px solid var(--verde);
+	border-bottom: 4px solid var(--roxoclaro);
 	}
 
 .botoes {
@@ -80,11 +80,11 @@ body {
 .aba-conteudo-titulo-princial{
 	font-size: 28px;
 	text-align: center;
+    justify-content: center;
 }
-
 .aba-conteudo-titulo-secundario{
 	text-align: center;
-	color: var(--verde);
+	color: var(--roxoclaro);
 	text-transform: uppercase;
 }
 
